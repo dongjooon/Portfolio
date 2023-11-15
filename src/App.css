@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'NanumGothicCoding-Regular';
+    src: url('./NanumGothicCoding-Regular.ttf') format('truetype');
+  }
+body{
+    font-family: "NanumGothicCoding-Regular";
+}
+.box{
+    background-color:gray;
+    border:1px solid gray;
+    margin-left: 50px;
+    margin-bottom:10px;
+    color:white;
+    width:150px;
+}
+.subox{
+    position:absolute;
+    left:225px;
+    background-color: gray;
+    border:1px solid gray;
+    color:white;
+    width:85px;
+    text-align: center;
+}
+.upbox{
+    color:white;
+    font-size:25px;
+}
+.upbox:focus{
+    color:black;
+    border-bottom:black;
+}
+.subox:focus{
+    color:black;
+}
+.contents{
+    position:absolute;
+    left:10px;
+}
+article{
+    border:3px solid black;
+    border-radius:10px;
+    position:absolute;
+    left:400px;
+    top:200px;
+    width:700px;
+    height:400px;
+}
+.pwd{
+    position:absolute;
+    left : 610px;
+    top:250px;
+    font-size:40px;
+    
+}
+h3{
+    font-size:25px;
+    margin-bottom:10px;
+}
+.skill{
+    display:inline-block;
+}
+.skillbox1{
+    background-color:black;
+    border:1px solid black;
+    display:inline-block;
+    margin-left:0px;
+    border-radius: 10px;
+    position:absolute;
+    z-index:1;
+    left:100px;
+    height:10px;
+}
+.skillbox2{
+    background-color:lightgray;
+    border:1px solid lightgray;
+    display:inline-block;
+    margin-left:0px;
+    width:100px;
+    border-radius: 10px;
+    position:absolute;  
+    left:100px;
+    height:10px;
+}
