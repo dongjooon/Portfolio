@@ -6,8 +6,9 @@ function Project(){
     return (
         <div>
           
-          <Link to="Project1" className="subox" style={{top:"170px"}}> Project1 </Link> <br />
-          <Link to="Project2"className="subox" style={{top:"195px"}}> Project2 </Link> <br />
+          <Link to="Project1" className="subox" style={{top:"185px"}}> Project1 </Link> <br />
+          <Link to="Project2"className="subox" style={{top:"215px"}}> Project2 </Link> <br />
+          
   
           <Routes>
             <Route path="Project1" Component={Project1} />

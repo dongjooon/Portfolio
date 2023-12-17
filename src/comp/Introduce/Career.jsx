@@ -1,11 +1,11 @@
 function Career(){
     return(
         <div>
-            <article style={{left:"400px", top:"200px", width:"700px", height:"350px"}}>
-                <h3>EDUCATION</h3>
+            <article>
+                <h3>EDUCATION</h3><br/>
                 <div>학사학위 컴퓨터공학</div>
                 <div>가천대학교</div>
-                <div>취득일자 : 2026년</div><br/><br/><br/>
+                <div>취득일자 : 2026년</div><br/><br/><br/><br/>
                 <h3>LISENCE</h3>
                 <div>정보처리기사(2025 취득)</div>
                 <div>네트워크 관리사 2급(2024 취득)</div>
@@ -19,7 +19,7 @@ function Career(){
                     <div className="skill">React</div> <div className="skillbox1" style={{width:"60px"}}>&nbsp;</div> <div className="skillbox2">&nbsp;</div> <br />
                     <div className="skill">DB Design</div> <div className="skillbox1" style={{width:"60px"}}>&nbsp;</div> <div className="skillbox2">&nbsp;</div> <br />
                     <div className="skill">SQL</div> <div className="skillbox1" style={{width:"75px"}}>&nbsp;</div> <div className="skillbox2">&nbsp;</div>
-                    <br/><br/>
+                    <br/><br/><br/>
                     <h3>WEBPAGE</h3>
                     <a href="https://blog.naver.com/odobuy1004" target="blank">Naver Blog</a><br/>
                     <a href="https://github.com/dongjooon" target="blank">Git Hub</a>

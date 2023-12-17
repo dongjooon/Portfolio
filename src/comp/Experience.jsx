@@ -6,8 +6,8 @@ function Experience(){
     return (
         <div>
           
-          <Link to="Volunteer" className="subox" style={{top:"245px"}}> Volunteer </Link> <br />
-          <Link to="Motivation" className="subox" style={{top:"270px"}}> Motivation </Link> <br />
+          <Link to="Volunteer" className="subox" style={{top:"285px"}}> Volunteer </Link> <br />
+          <Link to="Motivation" className="subox" style={{top:"315px"}}> Motivation </Link> <br />
   
           <Routes>
             <Route path="Volunteer" Component={Volunteer} />

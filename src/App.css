@@ -12,6 +12,15 @@ body{
     margin-bottom:10px;
     color:white;
     width:150px;
+    position:absolute;
+}
+.upbox{
+    color:white;
+    font-size:25px;
+}
+.upbox:focus{
+    color:black;
+    border-bottom:black;
 }
 .subox{
     position:absolute;
@@ -22,14 +31,6 @@ body{
     width:85px;
     text-align: center;
 }
-.upbox{
-    color:white;
-    font-size:25px;
-}
-.upbox:focus{
-    color:black;
-    border-bottom:black;
-}
 .subox:focus{
     color:black;
 }
@@ -38,20 +39,19 @@ body{
     left:10px;
 }
 article{
-    border:3px solid black;
-    border-radius:10px;
+    border-left:5px solid gray;
     position:absolute;
+    padding-left:10px;
     left:400px;
-    top:200px;
+    top:150px;
     width:700px;
-    height:400px;
+    height:500px;
 }
 .pwd{
     position:absolute;
-    left : 610px;
+    left : 630px;
     top:250px;
     font-size:40px;
-    
 }
 h3{
     font-size:25px;
@@ -81,4 +81,22 @@ h3{
     position:absolute;  
     left:100px;
     height:10px;
+}
+.self{
+    position:absolute;
+    left:150px;
+}
+.school{
+    position:relative;
+    left:140px;
+}
+.con{
+    padding-bottom:10px;
+}
+.gayo{
+    font-size:20px;
+    font-weight:bold;
+}
+.ex{
+    letter-spacing: 1.5px;
 }

@@ -5,8 +5,8 @@ import Contest2 from "./Contests/Contest2";
 function Contest(){
     return (
         <div>
-          <Link to="Contest1" className="subox" style={{top:"210px"}}> Contest1 </Link> <br />
-          <Link to="Contest2" className="subox" style={{top:"235px"}}> Contest2 </Link> <br />
+          <Link to="Contest1" className="subox" style={{top:"235px"}}> Contest1 </Link> <br />
+          <Link to="Contest2" className="subox" style={{top:"265px"}}> Contest2 </Link> <br />
   
           <Routes>
             <Route path="Contest1" Component={Contest1} />
