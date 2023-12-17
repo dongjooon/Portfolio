@@ -17,7 +17,7 @@ function App() {
       <Router>
         <div >
           <div className="box" style={{top:"150px"}}>
-          <Link to="/Intro"className="upbox">
+          <Link to="/Introduce"className="upbox">
             Introduce 
           </Link>
           </div>
